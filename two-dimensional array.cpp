@@ -21,7 +21,7 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	    for (i = 0; i < n; ++i)
 		for (j = 0; j < m; ++j)
-			p[i][j] = (i * n) + j + 1;
+			p[i][j] = (i * m) + j + 1;
 		for (i = 0; i<n; ++i) {
 			for (j = 0; j < m; ++j) 
 				printf("%4d", p[i][j]);
